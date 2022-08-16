@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;700;800&display=swap');
+:root{
+	--color-primary:#7e8394;
+	--color-icon:#151821;
+	--color-naranja:#EEB54E;
+	--color-title:#edeff5;
+	--color-footer:#6c6c6c;
+	--color-bg:#040406;
+	--color-btn:#282E3A;
+	--color-bgfeatures1:#101216;
+	--color-fter:##181a1f;
+	
+	
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: var(--color-primary);
+	
+}
+header{
+    
+	
+	width: 100%;
+	
+}
+
+
+#hero{
+	
+	padding-top: 100px;
+	padding-bottom: 300px;
+	background-color: var(--color-bg);
+}
+
+#hero h1{
+	font-size: 80px;
+	font-weight: 700;
+	color: var(--color-title);
+}
+
+#hero h3{
+	font-size: 25px;
+	font-weight: 200;
+	color: var(--color-naranja);
+	
+}
+
+#hero p{
+	font-size: 18px;
+	font-weight: 200;
+	color: var(--color-primary);
+	
+}
+
+.top {
+  position: absolute;
+  left: 1200px;
+  top: 500px;
+  z-index: 1;	
+	
+}
+.btn-hero {
+	
+	background-color: var(--color-btn);
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 30px;
+	padding: 10px 20px;
+	font-weight: 500;
+}
+
+#prefeatures {
+		background-color: var(--color-bgfeatures1);
+}
+#prefeatures i{
+	color: var(--color-naranja);
+	font-size: 50px;
+	padding-left: 610px;
+	padding-top: 100px;
+}
+#features1 {
+	background-color: var(--color-bgfeatures1);
+	
+}
+
+
+#features1 i{
+	
+	color: var(--color-title);
+	font-size: 50px;
+	text-align: center;
+	
+	
+}
+
+#features1 h1{
+	font-size: 60px;
+	font-weight: 600;
+	color: var(--color-title);
+	text-align: center;
+	
+}
+
+#features1 h2{
+	
+	font-size: 15px;
+	font-weight: 200;
+	color: var(--color-title);
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+#features1 h4{
+	font-size: 20px;
+	font-weight: 700;
+	color: var(--color-title);
+	text-align: left;
+	padding-left: 50px;
+	
+}
+#features1 p{
+	font-size: 15px;
+	font-weight: 200;
+	color: var(--color-title);
+	text-align: left;
+	padding-left: 50px;
+	
+}
+
+#features2 {
+	background-color: var(--color-icon);
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+#features2 i{
+	color: var(--color-naranja);
+	font-size: 50px;
+	text-align: center;
+	
+}
+
+#features2 h4{
+	font-size: 20px;
+	font-weight: 700;
+	color: var(--color-title);
+	text-align: left;
+	padding-left: 50px;
+	
+}
+#features2 p{
+	font-size: 15px;
+	font-weight: 200;
+	color: var(--color-title);
+	text-align: left;
+	padding-left: 50px;
+	
+}
+
+footer{
+	text-align: center;
+	background-color: #181a1f;
+	color: #fff;
+	padding-top: 20px;
+}
